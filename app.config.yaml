@@ -1,0 +1,20 @@
+extensions:
+  # This extension is required for app management. Do not remove.
+  commerce/extensibility/1:
+    $include: src/commerce-extensibility-1/ext.config.yaml
+
+variables:
+  PIM_WEBHOOK_SECRET:
+    required: true
+  COMMERCE_BASE_URL:
+    required: true
+  COMMERCE_AUTH_TYPE:
+    required: true
+  COMMERCE_ACCESS_TOKEN:
+    required: false
+  COMMERCE_CLIENT_ID:
+    required: false
+  COMMERCE_CLIENT_SECRET:
+    required: false
+  COMMERCE_REFRESH_TOKEN:
+    required: false

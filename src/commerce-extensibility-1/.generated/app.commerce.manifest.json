@@ -1,0 +1,8 @@
+{
+  "metadata": {
+    "description": "Syncs product data (SKU, name, description, price, stock, attributes) from an external PIM to Adobe Commerce via inbound webhook.",
+    "displayName": "PIM Product Sync",
+    "id": "pim-product-sync",
+    "version": "1.0.0"
+  }
+}
